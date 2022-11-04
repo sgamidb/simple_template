@@ -46,13 +46,3 @@ function decodeToString(bitArray){
     const arrByOctet = bitArray.match(/(\d{8})/g);
     return String.fromCharCode(...arrByOctet.map(b=>parseInt(b, 2)));
 }
-
-
-/*
-function encodeString(word) {
-    const textEncoder = new TextEncoder();
-    const uint8array = textEncoder.encode(word);
-    return uint8array.map(v=>v.toString(2))
-}
-
-*/

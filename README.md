@@ -9,6 +9,6 @@ Pour une chaine intégrer dans une image, après décodage avec l'image de base 
 - convertir une chaine de caractère en bit array et la reconvertir en string -> la chaine doit rester identique
 - lire une image / la transformer en bit array / l'enregistrer -> l'image doit rester identique
 - encodage d'une image en ajoutant de la donnée
-- decodade du message en comparant avec l'image source (au format bit array)
+- decodage du message en comparant avec l'image source (au format bit array)
 
 
